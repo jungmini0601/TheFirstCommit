@@ -6,8 +6,12 @@ git status # 스테이지에 올라가 있는 파일을 살펴본다.
 git push   # 원격 저장소에 commit을 푸쉬한다.
 git pull   # 원격 저장소에 있는 변경 내용을 가져온다.
 git brnach # 브렌치를 만든다.
+git branch -d 브렌치 이름 # 브렌치를 지운다.
 git merge 브렌치 # 현재 브렌치와 병합한다.
 git stash # 임시 저장
+git stash pop # 임시 저장된 내용 pop 해오기
+git cherrypick # 다른 브렌치의 특정 커밋만 가져오기
+git rebase # rebase를 이용하면 커밋 그래프를 깔끔하게 가져갈 수 있음 하나의 브렌치를 이어 가는 개념
 ```
 
 # 브렌치 전략
